@@ -1,0 +1,40 @@
+Parcial 70% (opcional % alistamiento)
+Trabajos 15%
+Laboratorio 10%
+Auto - Coe: 5%
+Actividades apreciativas (0%-10%)
+===========
+Medios de comunicación
+----------------------
+Moodle
+jesus.gonzalez@corhuila.edu.co
+
+Medios de entrega de actividades
+--------------------------------
+Moodle y cumplimiento con el tiempo estipulado.
+
+
+Medios de publicación oficial de actividades
+---------------------------------------------
+Moodle
+
+
+Medios para compartir material de apoyo, documento de la actividad o ejemplos
+--------------------------------------------------------
+Moodle
+github: https://github.com/code-corhuila/analisis-sistemas-2023-b
+
+
+===================================================================
+Lenguaje de programación a trabajar
+----------------------------------
+JAVA
+Versión: (8-11-17)  => JDK 17
+https://jdk.java.net/archive/
+https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+
+IDE: 
+NetBeans 
+Intellij IDEA
+Visual Studio Code
+Eclipse ***** Sugerido.
