@@ -1,0 +1,130 @@
+1. Caso emisora
+2. Caso emisora (IEEE 830 - RF) **31-08 
+3. Proyecto (IEEE 830 - RF) - 03-09
+========================================
+byte-caracter-dato-registro-información-conocimiento
+Gestión del conocimiento
+========================================
+1. Conceptos
+	1. Instrumentos.
+	1.1 Entrevista: 
+		*Iteración directa (online - presencial) *Estructurada o no estructurada
+		*Complejo para la tabulación
+	1.2 Cuestionario: 
+		*Preguntas abiertas o cerradas
+		*Evaluar
+		*Tabular datos 
+	1.3 Encuenta:
+		*Preguntas abiertas o cerradas
+		*Equipo selecto
+		*Población muestra
+		*Tabular datos 
+	1.4 Lista de chequeo:
+		*Definir posibles requerimietos
+		*Desplazarse al lugar y observar el fenómeno
+		*Analizar formatos.
+		*Socializar requerimietos con el cliente
+
+=====================================================
+RF (Medible, alcanzable, no ambiguo y lenguaje natural): IEEE 830
+=====================================================
+Sistema postal - ubicación: 
+
+RF1: Gestión de los continentes
+RF2: Gestión de los paises
+RF3: Gestión de los departamentos
+RF4: Gestión de los ciudades
+
+======================================================
+RF1: Entidad Continente
+
+El sistema debe permitir la gestión de los siguientes atributos para una entidad "Continente":
+
+•	nombre (Obligatorio).
+
+Restricciones de Atributos
+
+•	No debe permitirse la creación de múltiples registros con el mismo nombre.
+
+Requisitos Genéricos
+
+Atributos Genéricos: La entidad debe incluir los siguientes atributos genéricos:
+
+•	Identificador único (id) [IdentificadorId].
+•	Indicador de activo (activo) [AuditoriaActivo].
+
+Auditoría de Fechas: La entidad debe mantener la siguiente información de auditoría de fechas:
+
+•	Fecha de creación (fecha_creacion – obligatorio).
+•	Fecha de modificación (fecha_modificacion – opcional).
+•	Fecha de eliminación (fecha_eliminacion – opcional), en caso de eliminación lógica.
+
+Auditoría de Usuarios: El sistema debe registrar la siguiente información de auditoría de usuarios relacionada con la entidad:
+
+•	Usuario que realizó la creación (usuario_creacion – not obligatorio).
+•	Usuario que realizó la última modificación (usuario_modificacion – opcional).
+•	Usuario que realizó la eliminación (usuario_eliminacion – opcional), en caso de eliminación lógica.
+================================================================================================
+RF2: Entidad Pais
+
+El sistema debe permitir la gestión de los siguientes atributos para una entidad "Pais":
+
+•	nombre (Obligatorio).
+•	Continente (Referencia).
+
+Restricciones de Atributos
+
+•	No debe permitirse la creación de múltiples registros con el mismo nombre.
+•	Un pais pertenece a un único continente.
+
+Requisitos Genéricos
+
+Atributos Genéricos: La entidad debe incluir los siguientes atributos genéricos:
+
+•	Identificador único (id) [IdentificadorId].
+•	Indicador de activo (activo) [AuditoriaActivo].
+
+Auditoría de Fechas: La entidad debe mantener la siguiente información de auditoría de fechas:
+
+•	Fecha de creación (fecha_creacion – obligatorio).
+•	Fecha de modificación (fecha_modificacion – opcional).
+•	Fecha de eliminación (fecha_eliminacion – opcional), en caso de eliminación lógica.
+
+Auditoría de Usuarios: El sistema debe registrar la siguiente información de auditoría de usuarios relacionada con la entidad:
+
+•	Usuario que realizó la creación (usuario_creacion – not obligatorio).
+•	Usuario que realizó la última modificación (usuario_modificacion – opcional).
+•	Usuario que realizó la eliminación (usuario_eliminacion – opcional), en caso de eliminación lógica.
+
+================================================================================================
+RF2: Entidad Departamento
+
+El sistema debe permitir la gestión de los siguientes atributos para una entidad "Departamento":
+
+•	nombre (Obligatorio).
+•	Pais (Referencia).
+
+Restricciones de Atributos
+
+•	No debe permitirse la creación de múltiples registros con el mismo nombre.
+•	Un pais pertenece a un único pais.
+
+Requisitos Genéricos
+
+Atributos Genéricos: La entidad debe incluir los siguientes atributos genéricos:
+
+•	Identificador único (id) [IdentificadorId].
+•	Indicador de activo (activo) [AuditoriaActivo].
+
+Auditoría de Fechas: La entidad debe mantener la siguiente información de auditoría de fechas:
+
+•	Fecha de creación (fecha_creacion – obligatorio).
+•	Fecha de modificación (fecha_modificacion – opcional).
+•	Fecha de eliminación (fecha_eliminacion – opcional), en caso de eliminación lógica.
+
+Auditoría de Usuarios: El sistema debe registrar la siguiente información de auditoría de usuarios relacionada con la entidad:
+
+•	Usuario que realizó la creación (usuario_creacion – not obligatorio).
+•	Usuario que realizó la última modificación (usuario_modificacion – opcional).
+•	Usuario que realizó la eliminación (usuario_eliminacion – opcional), en caso de eliminación lógica.
+
