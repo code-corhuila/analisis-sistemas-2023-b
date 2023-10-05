@@ -57,3 +57,29 @@ CREATE TABLE ciudad(
     estado_id BIGINT NOT NULL,
     CONSTRAINT fk_ciudad_estado_estado_id FOREIGN KEY (estado_id) REFERENCES estado(id)
 );
+
+
+-- DML (Lenguaje de Manipulación de Datos)
+-- Insertar continentes
+INSERT INTO continente(
+    nombre,
+    estado,
+    fecha_creacion) 
+VALUES(
+    'América',
+    '1',
+     '2021-10-04 00:00:00'
+);
+
+-- Insertar continentes
+INSERT INTO pais(
+    nombre,
+    estado,
+    fecha_creacion,
+    continente_id) 
+VALUES(
+    'América',
+    '1',
+    '2021-10-04 00:00:00',
+    1
+);
